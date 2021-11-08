@@ -34,7 +34,7 @@ function App() {
   return (
     <>
       <TextField id="standard-basic" label="Ingrese una tarea" variant="outlined" type="text" onChange={onChangeInput} value={valueInput} />
-      <Button onClick={addToList} variant="contained" dark>Agregar</Button>
+      <Button onClick={addToList} variant="contained">Agregar</Button>
       <List>
         {
           list && list.map((item, i) => {
